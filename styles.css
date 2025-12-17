@@ -334,7 +334,7 @@ body{
 .why-choose-container {
     width: 100%;
     height: auto;
-    font-size: 23px;
+    font-size: 20px !important;
     padding: 60px 20px;
     background: rgba(209, 174, 108, 0.3);
 }
@@ -359,6 +359,7 @@ body{
     list-style: none;
     border: none;
     background: transparent;
+    font-size: 20px !important;
 }
 
 .why-choose-container img {
