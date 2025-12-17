@@ -41,7 +41,7 @@ body{
 .navbar .nav-link, 
 .navbar .btn, 
 .navbar .dropdown-toggle {
-    font-size: 17px !important;          
+    font-size: 14px !important;          
     color: var(--font-color);
     margin-right: 12px; 
     font-weight: bold;
