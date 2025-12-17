@@ -33,7 +33,7 @@ body{
 
 .navbar .navbar-brand img {
     width: auto;       /* lets width adjust proportionally */
-    max-width: 300px;  /* maximum width you want */
+    max-width:250px;  /* maximum width you want */
     height: auto;      /* keeps original aspect ratio */
 }
 
