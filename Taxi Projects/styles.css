@@ -10,43 +10,6 @@
             padding: 0;
         }
 
-        /* Header */
-        .navbar {
-            background-color: rgba(26, 26, 46, 0.95);
-            padding: 1rem 0;
-            border-bottom: 1px solid #d4af37; 
-        }
-
-        .navbar-brand img {
-            height: 40px;
-        }
-
-        .navbar-nav .nav-link {
-            color: var(--text-light) !important;
-            margin: 0 15px;
-            font-size: 14px;
-            transition: color 0.3s;
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: var(--secondary-color) !important;
-        }
-
-        .btn-book {
-            background-color: var(--secondary-color);
-            color: var(--primary-color);
-            padding: 8px 25px;
-            border-radius: 5px;
-            font-weight: 600;
-            border: none;
-            transition: all 0.3s;
-        }
-
-        .btn-book:hover {
-            background-color: #c49d2f;
-            transform: translateY(-2px);
-        }
-
         /* Hero Section */
         .hero-section {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
