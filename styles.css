@@ -33,7 +33,7 @@ body{
 
 .navbar .navbar-brand img {
     width: auto;       /* lets width adjust proportionally */
-    max-width:250px;  /* maximum width you want */
+    max-width:250px !important;  /* maximum width you want */
     height: auto;      /* keeps original aspect ratio */
 }
 
@@ -133,7 +133,7 @@ body{
     padding: 60px 20px;
     background-color:rgb(44 37 35);
     color: var(--secondary-color);
-    font-size: 25px;
+    font-size: 25px !important;
     width: 100%;  
     height: auto;
 }
@@ -142,7 +142,7 @@ body{
     font-weight: 700;
     margin-bottom: 20px;
     color: var(--font-color);
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .our-fleets-container h2{
