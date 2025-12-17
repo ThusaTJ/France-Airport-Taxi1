@@ -549,8 +549,16 @@
                     url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23e8e8e8" width="1200" height="800"/><path stroke="%23d0d0d0" stroke-width="2" fill="none" d="M100,200 Q300,150 500,200 T900,200 M200,400 Q400,350 600,400 T1000,400 M150,600 Q350,550 550,600"/><circle cx="180" cy="180" r="40" fill="white" stroke="%23ff6b6b" stroke-width="3"/><text x="190" y="195" font-size="24" fill="%23333">PARIS</text><circle cx="520" cy="220" r="35" fill="white" stroke="%23ff6b6b" stroke-width="3"/><text x="450" y="175" font-size="20" fill="%23555">DISNEYLAND</text></svg>');
         background-size: cover;
         background-position: center;
-        padding: 50px 20px;
+        padding: 80px 20px;
         min-height: 60vh;
+        width: 100%;
+    }
+
+    .need-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1500px;
     }
 
     .support-card {
@@ -559,6 +567,7 @@
         padding: 45px;
         box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
         text-align: center;
+        width: 1000px !important;
     }
 
     .support-card .icon-circle {
@@ -622,152 +631,11 @@
         transform: translateY(-3px);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
     }
-
-    .booking-widget {
-        background: #fff;
-        border-radius: 25px;
-        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
-        padding: 35px;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .widget-header {
-        text-align: center;
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        border-bottom: 2px solid #f0f0f0;
-    }
-
-    .widget-header h3 {
-        font-size: 1.8rem;
-        font-weight: 700;
-        color: #1a1a1a;
-        margin-bottom: 10px;
-    }
-
-    .widget-header .subtitle {
-        color: #666;
-        font-size: 0.95rem;
-    }
-
-    .availability-notice {
-        background: linear-gradient(135deg, #fff9e6 0%, #fff3d6 100%);
-        border-left: 4px solid #d4a574;
-        padding: 15px 20px;
-        border-radius: 12px;
-        margin-bottom: 25px;
-    }
-
-    .availability-notice i {
-        color: #d4a574;
-        margin-right: 10px;
-    }
-
-    .availability-notice span {
-        font-size: 0.95rem;
-        color: #333;
-        font-weight: 600;
-    }
-
-    .input-group-custom {
-        margin-bottom: 20px;
-    }
-
-    .input-group-custom label {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-weight: 600;
-        color: #1a1a1a;
-        margin-bottom: 10px;
-        font-size: 1rem;
-    }
-
-    .input-group-custom label i {
-        color: #d4a574;
-        font-size: 1.1rem;
-    }
-
-    .input-group-custom input {
+    .phone-section img {
         width: 100%;
-        padding: 15px 18px;
-        border: 2px solid #e8e8e8;
-        border-radius: 12px;
-        font-size: 0.95rem;
-        transition: all 0.3s ease;
-        background: #fafafa;
-    }
-
-    .input-group-custom input:focus {
-        outline: none;
-        border-color: #d4a574;
-        background: #fff;
-        box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
-    }
-
-    .input-group-custom input::placeholder {
-        color: #999;
-    }
-
-    .trust-section {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 20px 0;
-        border-top: 2px solid #f0f0f0;
-        border-bottom: 2px solid #f0f0f0;
-        margin: 25px 0;
-    }
-
-    .trust-item {
-        text-align: center;
-    }
-
-    .trust-item .trust-icon {
-        font-size: 1.5rem;
-        color: #d4a574;
-        margin-bottom: 8px;
-    }
-
-    .trust-item .trust-label {
-        font-size: 0.8rem;
-        color: #666;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-
-    .rating-stars {
-        color: #ffa500;
-        font-size: 1.2rem;
-    }
-
-    .company-badge {
-        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-        color: #fff;
-        padding: 25px;
-        border-radius: 15px;
-        text-align: center;
-        margin-top: 25px;
-    }
-
-    .company-badge h4 {
-        font-size: 1.4rem;
-        font-weight: 700;
-        margin-bottom: 8px;
-        letter-spacing: 1px;
-    }
-
-    .company-badge .tagline {
-        font-size: 0.85rem;
-        opacity: 0.9;
-        margin: 0;
-    }
-
-    .company-badge i {
-        font-size: 2rem;
-        color: #d4a574;
-        margin-top: 10px;
+        max-width: 400px;
+        display: block;
+        margin-left:50px !important;
     }
 
     @media (max-width: 768px) {
